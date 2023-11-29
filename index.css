@@ -1,0 +1,174 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Navigation Styles */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.links {
+    background-color: #6E7E85;
+    padding: 20px;
+    box-shadow: 2px 2px black;
+}
+
+.links a {
+    text-decoration: none;
+    color: #F8F7F9;
+    transition: background-color 0.6s;
+    padding: 6px;
+    font-size: 0.9em;
+}
+
+.links a:hover {
+    background-color: #b7cece;
+    box-shadow: 1px 1px #F8F7F9;
+}
+
+/* Hero Section Styles */
+.landing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.big {
+    font-size: 10rem;
+    line-height: 0.9em;
+    margin-bottom: 2.6rem;
+}
+
+.hero-section {
+    flex: 2;
+}
+
+/* Tool Section Styles */
+.tool-section {
+    flex: 1;
+}
+
+.tools {
+    list-style: none;
+    font-size: 3rem;
+    color: #6E7E85;
+    display: flex;
+    gap: 1.6rem;
+}
+
+.tools li {
+    animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(-360deg);
+    }
+}
+
+/* About Section Styles */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.about-title {
+    font-size: 10rem;
+    line-height: 0.7em;
+    color: black;
+}
+
+.about-text {
+    width: 70%;
+    font-size: 1.6rem;
+    padding: 20px;
+    color: #F8F7F9;
+    box-shadow: 1px 1px black;
+    margin-bottom: 0px;
+    text-align: center;
+    background-color: #b7cece;
+}
+
+/* Projects Section Styles */
+.projects-title {
+    font-size: 8rem;
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Contact Section Styles */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact textarea {
+    width: 50%;
+    align-self: center;
+    border: 2px solid black;
+}
+
+.contact input {
+    width: 50%;
+    align-self: center;
+    height: 2rem;
+    border: 2px solid black;
+}
+
+.sub-button {
+    background-color: #F8F7F9;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    width: 51.5%;
+    border: 3px solid black;
+    align-self: center;
+    font-size: 2rem;
+    padding: 20px;
+    transition: all 1s;
+}
+
+.sub-button:hover {
+    background-color: black;
+    color: #F8F7F9;
+}
+
+/* Line Styles */
+.line {
+    height: 1px;
+    align-self: center;
+    box-shadow: 1px 1px black;
+}
+
+/* Stack Styles */
+.stack {
+    box-shadow: 1px 1px black;
+    background-color: #b7cece;
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.stack-a {
+    background-color: black;
+}
+
+/* Initial letter styles */
+.about-title::first-letter,
+.projects-title::first-letter {
+    text-shadow: 5px 5px #b7cece;
+}
