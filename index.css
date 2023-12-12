@@ -252,7 +252,7 @@ body {
     } 
 
     .big{
-        font-size: 5.5rem;
+        font-size: 5rem;
         text-align: center;
         padding: 1rem;
     }
@@ -267,7 +267,8 @@ body {
     }
 
     .about-title{
-        font-size: 5.5rem;
+        font-size: 5rem;
+        padding: 1rem;
         
     
         
@@ -275,7 +276,7 @@ body {
 
     .about-text{
         min-width: 100%;
-        padding: 0.5rem;
+        padding: 1rem;
     }
 
     #projects{
