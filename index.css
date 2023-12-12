@@ -56,7 +56,7 @@ body {
 .tools {
     list-style: none;
     font-size: 3rem;
-    color: #6E7E85;
+    color: red;
     display: flex;
     gap: 1.6rem;
 }
