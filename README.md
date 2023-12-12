@@ -2,4 +2,4 @@
 Work In Progress 
 
 ## Live Demo 
-[Portfolio](https://AustinMaturure.github.io/CV/)
+Click Here to View My [Portfolio](https://AustinMaturure.github.io/CV/)
