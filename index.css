@@ -254,6 +254,7 @@ body {
     .big{
         font-size: 5.5rem;
         text-align: center;
+        padding: 1rem;
     }
 
     .about{
