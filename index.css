@@ -242,7 +242,7 @@ body {
 .projects-title::first-letter {
     text-shadow: 5px 5px #b7cece;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 736px){
     .links{
         min-width: 60%;
     }
