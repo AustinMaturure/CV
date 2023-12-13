@@ -1,8 +1,9 @@
 /* General Styles */
 body {
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Author','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     scroll-behavior: smooth;
+    color: #1f1f1f;
 }
 
 /* Navigation Styles */
@@ -36,7 +37,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Author', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
     color: #1f1f1f;
 }
 
@@ -87,7 +89,7 @@ body {
     margin-top: 5rem;
     margin-bottom: 0px;
     padding-top: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Author', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .about-title {
@@ -99,6 +101,7 @@ body {
 .about-text {
     width: 70%;
     font-size: 1.6rem;
+   font-family: 'Author';
     padding: 20px;
     color: #F8F7F9;
     box-shadow: 1px 1px #1f1f1f;
@@ -110,6 +113,8 @@ body {
 .projects{
     box-sizing: border-box;
     background-color: #1f1f1f;
+    font-family: 'Author';
+    font-weight: 700;
     min-height: 60vw;
     position: sticky;
     top: 0;
@@ -131,7 +136,8 @@ body {
     font-size: 12rem;
     text-align: center;
     margin-top: 0px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f1f1f;
+    font-family: 'Author','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .project-title{
@@ -178,6 +184,7 @@ body {
     flex-direction: column;
     text-align: center;
     justify-self: center;
+    font-size: 1.3rem;
 }
 
 #project-tools{
@@ -211,7 +218,7 @@ body {
 .sub-button {
     background-color: #F8F7F9;
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Author','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     width: 51.5%;
     border: 3px solid #1f1f1f;
@@ -259,8 +266,9 @@ body {
     .links{
         min-width: 100%;
         display: flex;
-        justify-content: flex-end;
+        justify-content: center;
         background-color: #6E7E85;
+        box-shadow: none;
     }
     .landing{
         flex-direction: column;
@@ -290,7 +298,7 @@ body {
 
     .about-title{
         font-size: 4rem;
-        margin-top: 0px;
+        margin-top: 10px;
         
     
         
@@ -314,6 +322,7 @@ body {
         min-width:90%;
         border-radius: 8px;
         
+        
     }
 
     #projects{
@@ -335,7 +344,16 @@ body {
     }
 
    .projects{
-    border-radius: 12px;
+    border-top-right-radius: 16px;
+    border-top-right-radius: 16px;
+   }
+
+   .project-explaination{
+    font-size: 0.9rem;
+   }
+
+   #contact-about{
+    margin-top: 2rem;
    }
 
    .contact input, .contact textarea {
@@ -347,6 +365,7 @@ body {
 
    .gmail{
     font-size: 1rem;
-    font-family: fantasy;
+    font-family: 'Author';
+    font-weight: 700;
    }
 }
