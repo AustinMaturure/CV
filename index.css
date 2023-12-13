@@ -14,7 +14,8 @@ body {
 .links {
     background-color: #6E7E85;
     padding: 20px;
-    box-shadow: 2px 2px black;
+    box-shadow: 2px 2px #1f1f1f;
+    
 }
 
 .links a {
@@ -36,12 +37,14 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f1f1f;
 }
 
 .big {
     font-size: 10rem;
     line-height: 0.9em;
     margin-bottom: 2.6rem;
+    color: #1f1f1f;
 }
 
 .hero-section {
@@ -51,13 +54,18 @@ body {
 /* Tool Section Styles */
 .tool-section {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
 }
 
 .tools {
     list-style: none;
     font-size: 3rem;
-    color:#6E7E85;
+    color: #6E7E85;
     display: flex;
+    padding-left: 0px;
     gap: 1.6rem;
 }
 
@@ -85,7 +93,7 @@ body {
 .about-title {
     font-size: 10rem;
     line-height: 0.7em;
-    color: black;
+    color: #1f1f1f;
 }
 
 .about-text {
@@ -93,7 +101,7 @@ body {
     font-size: 1.6rem;
     padding: 20px;
     color: #F8F7F9;
-    box-shadow: 1px 1px black;
+    box-shadow: 1px 1px #1f1f1f;
     margin-bottom: 0px;
     text-align: center;
     background-color: #b7cece;
@@ -180,25 +188,24 @@ body {
 .contact {
     display: flex;
     flex-direction: column;
-    margin-top:0px;
 }
 
 .contact a {
-    color: black;
+    color: #1f1f1f;
     text-decoration: none;
 }
 
 .contact textarea {
     width: 50%;
     align-self: center;
-    border: 2px solid black;
+    border: 2px solid #1f1f1f;
 }
 
 .contact input {
     width: 50%;
     align-self: center;
     height: 2rem;
-    border: 2px solid black;
+    border: 2px solid #1f1f1f;
 }
 
 .sub-button {
@@ -207,7 +214,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: none;
     width: 51.5%;
-    border: 3px solid black;
+    border: 3px solid #1f1f1f;
     align-self: center;
     font-size: 2rem;
     padding: 20px;
@@ -215,7 +222,7 @@ body {
 }
 
 .sub-button:hover {
-    background-color: black;
+    background-color: #1f1f1f;
     color: #F8F7F9;
 }
 
@@ -223,19 +230,24 @@ body {
 .line {
     height: 1px;
     align-self: center;
-    box-shadow: 1px 1px black;
+    box-shadow: 1px 1px #1f1f1f;
 }
 
 /* Stack Styles */
 .stack {
-    box-shadow: 1px 1px black;
+    box-shadow: 1px 1px #1f1f1f;
     background-color: #b7cece;
     padding: 20px;
     padding-top: 0px;
 }
 
+.about-2{
+    display: none;
+}
+
 .stack-a {
-    background-color: black;
+    background-color: #1f1f1f;
+    padding: 2px;
 }
 
 /* Initial letter styles */
@@ -243,22 +255,28 @@ body {
 .projects-title::first-letter {
     text-shadow: 5px 5px #b7cece;
 }
-@media only screen and (max-width: 736px){
+@media only screen and (max-width: 768px){
     .links{
-        min-width: 65%;
-        margin-left:0px;
-        align-items:center;
-        align-self:center;
+        min-width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        background-color: #6E7E85;
     }
     .landing{
         flex-direction: column;
         
     } 
-
+    
     .big{
         font-size: 5rem;
         text-align: center;
-        padding: 1rem;
+        color: #1f1f1f;
+       
+    }
+
+    .stack{
+        background-color: #6E7E85;
+        color: #1f1f1f;
     }
 
     .about{
@@ -271,30 +289,64 @@ body {
     }
 
     .about-title{
-        font-size: 5rem;
-        padding: 1rem;
-        line-height:1em;
+        font-size: 4rem;
+        margin-top: 0px;
         
     
         
     }
 
+    .about-1{
+        display: none;
+    }
+
+    .about-2{
+        display: block;
+
+    }
+
+    .about-title::first-letter
+ {
+    text-shadow: 5px 5px #F8F7F9;
+}
+
     .about-text{
-        min-width: 100%;
-        padding: 1rem;
-       
+        min-width:90%;
+        border-radius: 8px;
+        
     }
 
     #projects{
         font-size: 5.5rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
 
     .project-display{
         display: flex;
         flex-direction: column;
+        
     }
-    .project-description{
-        padding:1rem;
 
-    
+    .project-gif{
+        background-color: #b7cece;
+        padding: 2px;
+        
+    }
+
+   .projects{
+    border-radius: 12px;
+   }
+
+   .contact input, .contact textarea {
+    width: 90%;
+   }   
+   .sub-button{
+    width: 92.5%;
+   }
+
+   .gmail{
+    font-size: 1rem;
+    font-family: fantasy;
+   }
 }
